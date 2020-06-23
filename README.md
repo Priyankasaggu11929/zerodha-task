@@ -70,4 +70,4 @@ If you have experience working with Kubernetes, you can attempt the bonus scenar
 
 - Screenshot for kubernetes deployed  server
 
-![K8s_Provisioned_server](kubernetes-deployment/image/output.pn)
+![K8s_Provisioned_server](kubernetes-deployment/image/output.png)
