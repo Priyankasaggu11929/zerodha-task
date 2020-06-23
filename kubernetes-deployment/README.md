@@ -37,3 +37,5 @@ $ minikube service go-redis-app-service --url -n demp-ops
 ```
 curl <url>
 ```
+
+![output-screenshot](image/output.png)
