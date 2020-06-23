@@ -120,10 +120,10 @@
   - name: Add `demo` (sudoer) user to wheel group
     user: name=demo groups=wheel append=yes state=present createhome=yes
   
-  - name: Set up authorized keys for the `demo` user
-    authorized_key: user=demo key="{{item}}"
-    with_file:
-      - /home/priyankasaggu119/.ssh/id_rsa_2.pub
+#   - name: Set up authorized keys for the `demo` user
+#     authorized_key: user=demo key="{{item}}"
+#     with_file:
+#       - /home/priyankasaggu119/.ssh/id_rsa.pub
 
   - name: modify nofile soft limit for the user `demo`
     pam_limits:
