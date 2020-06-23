@@ -40,7 +40,7 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
 #### Commands to run the ansible playbook
 
-- **[TODO]** Uncomment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitude `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to a ssh public-key on your local system.
+- **[TODO]** Un-comment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitute `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to a ssh public-key on your local system.
 
 - Run the following command to provision the VM for the above checkpoints.
 
