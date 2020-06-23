@@ -38,7 +38,7 @@ $ ./vagrant_boot.sh
   - [X] Configure `sysctl` for sane defaults. For eg: increasing open files limit. Configure a variety of `sysctl` settings to make the VM a production grade one.
   - [X] Set the system's timezone to "Asia/Kolkata"
   - [X] Install Docker and Docker-Compose
-  - [ ] Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
+  - [X] Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
   - [X] Deploy the `docker-compose.yml` in `/etc/demo-ops` and start the services
 
 - [X] Commit the scripts to Github and share the link.
@@ -78,3 +78,7 @@ If you have experience working with Kubernetes, you can attempt the bonus scenar
 - Screenshot for kubernetes deployed  server
 
 ![K8s_Provisioned_server](kubernetes-deployment/image/output.png)
+
+- Screenshot of Redis monitoring endpoint hits
+
+![Redis_monitoring_requests](images/redis-monitor.png)
