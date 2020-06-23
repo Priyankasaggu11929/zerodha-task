@@ -21,6 +21,12 @@ vagrant init hashicorp/bionic64
 
 vagrant up
 
+# Vagrant IP
+
+IP=$(vagrant ssh -c "ip address show eth0 | grep 'inet ' | sed -e 's/^.*inet //' -e 's/\/.*$//'")
+
+echo "[INFO] Add this IP: $IP under /etc/ansible/hosts for provisioning of the VM through Ansible!"
+
 ##--- SSH into Vagrant VM---
 
 # vagrant ssh

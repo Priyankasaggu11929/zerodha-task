@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  become: yes
+  tasks:
+
+  - name: (Working directory changed to `/etc/demo-ops`) Shutting down the server...
+    shell: docker-compose down
+    args:
+      chdir: /etc/demo-ops
+
