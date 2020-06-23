@@ -26,10 +26,10 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
   - [X] Setup hostname of VM as `demo-ops`
   - [X] Create a user `demo`
-  - Configure `sysctl` for sane defaults. For eg: increasing open files limit. Configure a variety of `sysctl` settings to make the VM a production grade one.
+  - [X] Configure `sysctl` for sane defaults. For eg: increasing open files limit. Configure a variety of `sysctl` settings to make the VM a production grade one.
   - [X] Set the system's timezone to "Asia/Kolkata"
   - [X] Install Docker and Docker-Compose
-  - Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
+  - [ ] Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
   - [X] Deploy the `docker-compose.yml` in `/etc/demo-ops` and start the services
 
 - [X] Commit the scripts to Github and share the link.
