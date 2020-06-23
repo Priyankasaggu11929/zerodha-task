@@ -36,11 +36,11 @@ This is a sample `Go` application which connects to Redis. The app increments a 
   - [ ] Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
   - [X] Deploy the `docker-compose.yml` in `/etc/demo-ops` and start the services
 
-**[TODO]** Uncomment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitude `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to a ssh public-key on your local system.
-
 - [X] Commit the scripts to Github and share the link.
 
 #### Commands to run the ansible playbook
+
+- **[TODO]** Uncomment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitude `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to a ssh public-key on your local system.
 
 - Run the following command to provision the VM for the above checkpoints.
 
