@@ -4,6 +4,8 @@
 
 *[NOTE: I'm considering here a minikube single node cluster setup!]*
 
+*[Go Application public docker image: [priyankasaggu119/go-redis-task:1.0.0](https://hub.docker.com/layers/priyankasaggu119/go-redis-task/1.0.0/images/sha256-2a8bf9d4a4b037dc579371368fa91bc4476f1979746984050eac76cb491d7953?context=repo)]*
+
 - **STEP 1:** Create a namespace `demo-ops`.
 
 ```
