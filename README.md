@@ -45,7 +45,7 @@ $ ./vagrant_boot.sh
 
 #### Commands to run the ansible playbook
 
-- **[TODO]** Un-comment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitute `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to a ssh public-key on your local system.
+- **[TODO]** Un-comment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L139-L142) and substitute `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to a ssh public-key on your local system.
 
 - Run the following command to provision the VM for the above checkpoints.
 
