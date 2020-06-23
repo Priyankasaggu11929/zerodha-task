@@ -28,8 +28,6 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
 - Using Ansible provision the VM to: [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml)**]
 
-**[TODO] Uncomment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitude `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to ssh public key on your local system.**
-
   - [X] Setup hostname of VM as `demo-ops`
   - [X] Create a user `demo`
   - [X] Configure `sysctl` for sane defaults. For eg: increasing open files limit. Configure a variety of `sysctl` settings to make the VM a production grade one.
@@ -37,6 +35,8 @@ This is a sample `Go` application which connects to Redis. The app increments a 
   - [X] Install Docker and Docker-Compose
   - [ ] Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
   - [X] Deploy the `docker-compose.yml` in `/etc/demo-ops` and start the services
+
+**[TODO]** Uncomment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitude `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to a ssh public-key on your local system.
 
 - [X] Commit the scripts to Github and share the link.
 
