@@ -23,21 +23,21 @@ spec:
             memory: 100Mi
         ports:
           - containerPort: 8080 
-#         livenessProbe:         
-#           httpGet:
-#             path: /health
-#             port: 8080
-#             scheme: HTTP
-#           initialDelaySeconds: 5
-#           periodSeconds: 15
-#           timeoutSeconds: 5
-#         readinessProbe:       
-#           httpGet:
-#             path: /readiness
-#             port: 8080
-#             scheme: HTTP
-#           initialDelaySeconds: 5
-#           timeoutSeconds: 1                
+        livenessProbe:         
+          httpGet:
+            path: /
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 5
+          periodSeconds: 15
+          timeoutSeconds: 5
+        readinessProbe:       
+          httpGet:
+            path: /
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 5
+          timeoutSeconds: 1                
         env:                   
           - name: DEMO_APP_ADDR
             value: 0.0.0.0:8080
