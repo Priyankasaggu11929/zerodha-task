@@ -24,7 +24,7 @@ This is a sample `Go` application which connects to Redis. The app increments a 
   
 - [X] Write a bash script that creates and boots [Vagrant box](https://vagrant.io) with Ubuntu. [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/vagrant_boot.sh)**]
 
-<sub>***(The above vagrant bash script checks if Vagrant is already setup on the system or not. If not, It first installs the Vagrant setup, then initializes an Ubuntu Vagrant box, and boots it.)***</sub>
+<sub>***(The above vagrant bash script checks whether Vagrant is already setup on the system or not. If not, It first installs the Vagrant setup, then initializes an Ubuntu Vagrant box, and boots it.)***</sub>
 
 - Using Ansible provision the VM to: [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml)**]
 
