@@ -58,3 +58,5 @@ If you have experience working with Kubernetes, you can attempt the bonus scenar
 - [X] Create a namespace `demo-ops`
 - [X] Create a deployment and service manifest for the app.
 - [X] Configure liveliness check, resource quotas for the deployment.
+
+![Ansible_Provisioned_VM](images/ansible_run.png)
