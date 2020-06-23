@@ -13,7 +13,7 @@ This is a sample `Go` application which connects to Redis. The app increments a 
     - `DEMO_APP_ADDR`: Address where the app should listen to
     - `DEMO_REDIS_ADDR`: Address where Redis is running
 
-## Solution to tasks, with steps to run
+## Solutions to the tasks with corresponding steps to run
 
 - [X] Create a `Dockerfile` for the app. [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/application/Dockerfile)**]
 
