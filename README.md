@@ -1,4 +1,4 @@
-# Zerodha Ops Task
+# [SOLVED] Zerodha Ops Task 
 
 ## Description
 
@@ -6,23 +6,23 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
 ### Setting up the app
 
-- [X] Use `make build` to compile the binary.
-- [X] Set the environment variables:
-    - [X] `DEMO_APP_ADDR`: Address where the app should listen to
-    - [X] `DEMO_REDIS_ADDR`: Address where Redis is running
+- Use `make build` to compile the binary.
+- Set the environment variables:
+    - `DEMO_APP_ADDR`: Address where the app should listen to
+    - `DEMO_REDIS_ADDR`: Address where Redis is running
 
 ## Tasks
 
-- [X] Create a `Dockerfile` for the app.
+- [X] Create a `Dockerfile` for the app. [**[SOLUTION]()**]
 
-- [X] Create a `docker-compose.yml` for the app which includes
+- [X] Create a `docker-compose.yml` for the app which includes [**[SOLUTION]()**]
 
   - [X] `redis` service, with the data directory of `redis` mounted at `/data` in your VM.
   - [X] `app` service running with port `8000` exposed to the host.
 
-- [X] Write a bash script that creates and boots [Vagrant box](https://vagrant.io) with Ubuntu.
+- [X] Write a bash script that creates and boots [Vagrant box](https://vagrant.io) with Ubuntu. [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/vagrant_boot.sh)**]
 
-- Using Ansible provision the VM to:
+- Using Ansible provision the VM to: [**[SOLUTION]()**]
 
   - [X] Setup hostname of VM as `demo-ops`
   - [X] Create a user `demo`
@@ -36,7 +36,7 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
 ### Bonus Section
 
-If you have experience working with Kubernetes, you can attempt the bonus scenario:
+If you have experience working with Kubernetes, you can attempt the bonus scenario: [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/tree/master/kubernetes-deployment)**]
 
 - [X] Create a namespace `demo-ops`
 - [X] Create a deployment and service manifest for the app.
