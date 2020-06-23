@@ -63,4 +63,11 @@ If you have experience working with Kubernetes, you can attempt the bonus scenar
 
 ---
 
+- Screenshot for ansible provisioned server
+
 ![Ansible_Provisioned_VM](images/ansible_run.png)
+
+
+- Screenshot for kubernetes deployed  server
+
+![K8s_Provisioned_server](kubernetes-deployment/image/output.pn)
