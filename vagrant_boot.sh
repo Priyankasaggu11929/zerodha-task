@@ -2,14 +2,17 @@
 
 set -e
 
-##--- Vagrant Setup---
+##--- install vagrant if not already setup!---
 
-# sudo apt install virtualbox
-# sudo apt update
-# curl -O https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.deb
-# sudo apt install ./vagrant_2.2.6_x86_64.deb
+pkgs='vagrant'
+if ! dpkg -s $pkgs >/dev/null 2>&1; then
+    sudo apt install virtualbox
+    sudo apt update
+    curl -O https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.deb
+    sudo apt install ./vagrant_2.2.6_x86_64.deb
+fi
 
-##--- Verifty Vagrant Installation---
+##--- verifty vagrant installation---
 
 vagrant --version
 
