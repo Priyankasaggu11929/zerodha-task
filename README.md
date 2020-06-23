@@ -13,7 +13,7 @@ This is a sample `Go` application which connects to Redis. The app increments a 
     - `DEMO_APP_ADDR`: Address where the app should listen to
     - `DEMO_REDIS_ADDR`: Address where Redis is running
 
-## Tasks
+## Solution to tasks, with steps to run
 
 - [X] Create a `Dockerfile` for the app. [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/application/Dockerfile)**]
 
@@ -24,9 +24,11 @@ This is a sample `Go` application which connects to Redis. The app increments a 
   
 - [X] Write a bash script that creates and boots [Vagrant box](https://vagrant.io) with Ubuntu. [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/vagrant_boot.sh)**]
 
-*(Vagrant bash script checks if Vagrant is already setup on the system or not. If not, It first installs the Vagrant setup, then initializes an Ubuntu Vagrant box, and boots it.)*
+***(Vagrant bash script checks if Vagrant is already setup on the system or not. If not, It first installs the Vagrant setup, then initializes an Ubuntu Vagrant box, and boots it.)***
 
 - Using Ansible provision the VM to: [**[SOLUTION](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml)**]
+
+**[TODO] Uncomment this code block [here](https://github.com/Priyankasaggu11929/zerodha-task/blob/master/playbooks/main.yml#L123-L126) and substitude `/home/priyankasaggu119/.ssh/id_rsa.pub` with path to ssh public key on your local system.**
 
   - [X] Setup hostname of VM as `demo-ops`
   - [X] Create a user `demo`
