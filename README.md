@@ -17,7 +17,7 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
 - [X] Create a `docker-compose.yml` for the app which includes
 
-  - `redis` service, with the data directory of `redis` mounted at `/data` in your VM.
+  - [X] `redis` service, with the data directory of `redis` mounted at `/data` in your VM.
   - [X] `app` service running with port `8000` exposed to the host.
 
 - Write a bash script that creates and boots [Vagrant box](https://vagrant.io) with Ubuntu.
