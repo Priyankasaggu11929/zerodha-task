@@ -24,13 +24,13 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
 - Using Ansible provision the VM to:
 
-  - Setup hostname of VM as `demo-ops`
-  - Create a user `demo`
+  - [X] Setup hostname of VM as `demo-ops`
+  - [X] Create a user `demo`
   - Configure `sysctl` for sane defaults. For eg: increasing open files limit. Configure a variety of `sysctl` settings to make the VM a production grade one.
-  - Set the system's timezone to "Asia/Kolkata"
-  - Install Docker and Docker-Compose
+  - [X] Set the system's timezone to "Asia/Kolkata"
+  - [X] Install Docker and Docker-Compose
   - Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
-  - Deploy the `docker-compose.yml` in `/etc/demo-ops` and start the services
+  - [X] Deploy the `docker-compose.yml` in `/etc/demo-ops` and start the services
 
 - [X] Commit the scripts to Github and share the link.
 
