@@ -6,16 +6,16 @@ This is a sample `Go` application which connects to Redis. The app increments a 
 
 ### Setting up the app
 
-- Use `make build` to compile the binary.
-- Set the environment variables:
-    - `DEMO_APP_ADDR`: Address where the app should listen to
-    - `DEMO_REDIS_ADDR`: Address where Redis is running
+- [X] Use `make build` to compile the binary.
+- [X] Set the environment variables:
+    - [X] `DEMO_APP_ADDR`: Address where the app should listen to
+    - [X] `DEMO_REDIS_ADDR`: Address where Redis is running
 
 ## Tasks
 
-- Create a `Dockerfile` for the app.
+- [X] Create a `Dockerfile` for the app.
 
-- Create a `docker-compose.yml` for the app which includes
+- [X] Create a `docker-compose.yml` for the app which includes
 
   - `redis` service, with the data directory of `redis` mounted at `/data` in your VM.
   - `app` service running with port `8000` exposed to the host.
@@ -32,12 +32,12 @@ This is a sample `Go` application which connects to Redis. The app increments a 
   - Configure Docker Daemon to have sane defaults. For eg: to keep logs size in check.
   - Deploy the `docker-compose.yml` in `/etc/demo-ops` and start the services
 
-- Commit the scripts to Github and share the link.
+- [X] Commit the scripts to Github and share the link.
 
 ### Bonus Section
 
 If you have experience working with Kubernetes, you can attempt the bonus scenario:
 
-- Create a namespace `demo-ops`
-- Create a deployment and service manifest for the app.
-- Configure liveliness check, resource quotas for the deployment.
+- [X] Create a namespace `demo-ops`
+- [X] Create a deployment and service manifest for the app.
+- [X] Configure liveliness check, resource quotas for the deployment.
